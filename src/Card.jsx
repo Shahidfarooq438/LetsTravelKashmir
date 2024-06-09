@@ -3,7 +3,7 @@ import aharbal from './assets/aharbal.jpg'
 
 function Card(props){
     return(
-        <div className="card">
+        <div className="card" id='popular-destinations'>
             <img className='card-image' src={props.image} alt=""/>
             <h2 className='card-title'>{props.name}</h2>
             <p className='card-text'>{props.text}</p>

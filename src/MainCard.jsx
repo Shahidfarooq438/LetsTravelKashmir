@@ -7,7 +7,7 @@ function MainCard(){
         
     }
     return (
-        <div className="main-card">
+        <div className="main-card" id='tour-packages'>
             <img src={image} alt="image" className='main-image'/>
            <div className='text-container'>
            <h1 className="main-title">Travel Any Corner of Kashmir with us</h1>

@@ -8,7 +8,7 @@ function Footer(){
         <h2>Contact Us</h2>
         <div className="contact-us" >
         
-            <div className="contact-info">
+            <div className="contact-info" id='contact-us'>
                 <p>Shalimar Srinagar, Jammu & Kashmir 190006</p>
                 <p><a href="mailto:hashtagkashmir@gmail.com">hashtagkashmir@gmail.com</a></p>
                 <p><a href='tel:9682658662'>+91 9682658662</a></p>

@@ -1,8 +1,8 @@
 function Navbar(){
     return (
-        <div className="navbar">
-          <div className="logo">
-            Lets Travel Kashmir
+        <div className="navbar" >
+          <div className="logo" id="home">
+            <a href="#home">Lets Travel Kashmir</a>
             </div>
           <ul className="nav-links">
             <li><a href="#popular-destinations">Popular Destinations</a></li>
