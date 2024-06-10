@@ -4,16 +4,19 @@ import Footer from './Footer.jsx'
 import Card from './Card.jsx'
 import MainCard from './MainCard.jsx'
 import Video from './Video.jsx'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import aharbal from './assets/aharbal.jpg'
 import gulmarg from './assets/gulmarg.jpg'
 import sonamarg from './assets/sonamarg.jpg'
 import pahalgam from './assets/pahalgam.jpg'
+import kaisar from './assets/kaisar.jpg'
 
 
 function App() {
 
   return (
    <>
+    <FloatingWhatsApp phoneNumber='+91 9682658662' accountName="Let's Trip Kashmir" avatar={kaisar}/>
    <Navbar />
    <Video/>
    <MainCard/>

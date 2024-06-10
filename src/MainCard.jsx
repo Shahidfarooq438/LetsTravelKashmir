@@ -2,8 +2,9 @@ import image from './assets/sonamarg.jpg'
 
 
 function MainCard(){
-    
+
     return (
+        
         <div className="main-card" id='tour-packages'>
             <img src={image} alt="image" className='main-image'/>
            <div className='text-container'>
