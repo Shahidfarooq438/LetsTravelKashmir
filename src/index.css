@@ -204,6 +204,9 @@ body {
   .nav-links li {
     margin: 5px 0;
   }
+  .name{
+    font-size: 3.5rem;
+  }
 }
 @media screen and (max-width: 460px) {
   .nav-links {
@@ -213,5 +216,8 @@ body {
   
   .nav-links li {
     margin: 3px 0;
+  }
+  .name{
+    font-size: 2.5rem;
   }
 }
