@@ -16,7 +16,7 @@ function App() {
 
   return (
    <>
-    <FloatingWhatsApp phoneNumber='+91 9682658662' accountName="Let's Trip Kashmir" avatar={kaisar}/>
+   <FloatingWhatsApp phoneNumber='+91 9682658662' accountName="Let's Trip Kashmir" avatar={kaisar}/>
    <Navbar />
    <Video/>
    <MainCard/>
