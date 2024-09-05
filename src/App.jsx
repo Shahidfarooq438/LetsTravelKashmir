@@ -19,6 +19,7 @@ function App() {
    <FloatingWhatsApp phoneNumber='+91 9682658662' accountName="Let's Trip Kashmir" avatar={kaisar}/>
    <Navbar />
    <Video/>
+   <hr className='sep'/>
    <MainCard/>
    <h2 className='dest-title'>Recommended & Popular Destinations</h2>
    <div className='card-container'>
@@ -27,6 +28,7 @@ function App() {
     <Card name="Sonamarg" image={sonamarg}/>
     <Card name="Pahalgam" image={pahalgam}/>
    </div>
+   <hr className='sep'/>
    <Footer/>
    </>
   )

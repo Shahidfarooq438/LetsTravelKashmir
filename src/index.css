@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 10px;
   box-sizing: border-box;
+  overflow-x: hidden;  
 }
 
 /* Navbar.css */
@@ -13,12 +14,13 @@ body {
   align-items: center;
   border: 1px solid black;
   border-radius: 10px;
+  background-color: #312f2f;
 }
 
 .logo {
   font-size: 2rem;
   font-weight: bold;
-  color: darkorange;
+  color: rgb(0, 255, 145);
   text-shadow: 2px 4px 4px rgba(96, 94, 231, 0.5);
 }
 
@@ -41,7 +43,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color:black;
+  color:#fff;
   font-weight: bold;
   padding: 5px;
 }
@@ -62,6 +64,11 @@ body {
   border-radius: 10px; */
   /* background-color: #6B8A7A; */
 }
+
+.main-card .div-register{
+  display: flex;
+  gap: 20px;
+}
 .main-image{
   height: 350px;
   width: 100%;
@@ -72,7 +79,7 @@ body {
 .main-button{
   width: 100px;
   height: 50px;
-  background-color: blue;
+  background-color: rgb(79, 122, 163);
   color: white;
   /* border-radius: 10px;
   border: 1px solid black; */
@@ -102,6 +109,7 @@ body {
 }
 .card-container{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   /* border: 1px solid black;
   border-radius: 20px; */
@@ -166,6 +174,7 @@ body {
   list-style: none;
   display: flex;
   gap: 10px;
+  padding-left: 0;
 }
 
 
@@ -186,13 +195,38 @@ body {
   font-size: 7rem;
   font-weight: 900;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   color: #000;
   transform: translate(-50%,-20%);
   min-width: 100%;
-  min-height: 100%;
+  min-height: 70px;
   text-shadow: 3px 4px #ffa27f;
+}
+
+.sep{
+  width: 100vw;
+  font-size: large;
+  font-weight: 900;
+}
+
+.social-links-parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-links h1{
+  font-size: 2rem;
+  font-weight: 900;
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
@@ -206,6 +240,8 @@ body {
   }
   .name{
     font-size: 3.5rem;
+    height: 70px;
+    width: 100vh;
   }
 }
 @media screen and (max-width: 460px) {
