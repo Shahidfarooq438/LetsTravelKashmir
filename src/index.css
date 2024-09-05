@@ -229,6 +229,13 @@ body {
   color: red;
 }
 
+.clicks{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .nav-links {
     flex-direction: column;
